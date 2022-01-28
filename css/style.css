@@ -49,6 +49,34 @@ body {
 .center-text {
   text-align: center !important; }
 
+.avatar {
+  object-fit: cover;
+  width: 40px;
+  height: 40px;
+  margin: 0 1rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%; }
+  .avatar.sm {
+    width: 30px;
+    height: 30px;
+    font-size: 1.25rem; }
+  .avatar.md {
+    width: 40px;
+    height: 40px; }
+  .avatar.lg {
+    width: 50px;
+    height: 50px; }
+  .avatar-text {
+    background-color: #4361ee;
+    color: #f4faff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem; }
+
 .alert {
   border-radius: 0.3rem;
   width: 100%;
