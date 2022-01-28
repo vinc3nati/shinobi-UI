@@ -1,0 +1,54 @@
+.badge {
+  position: relative;
+  width: max-content;
+
+  & > div {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: $color-primary;
+    border: 2px solid #fff;
+    border-radius: $border-radius-rounded;
+  }
+  & .online {
+    background-color: $color-success;
+  }
+  & .offline {
+    background-color: $color-grey-dark;
+  }
+  & .dnd {
+    background-color: $color-warning;
+  }
+
+  &-icon {
+    position: relative;
+    font-size: 2.8rem;
+
+    & ~ .number {
+      position: absolute;
+      top: 0;
+      right: -5px;
+      width: 15px;
+      height: 15px;
+      color: $color-tertiary;
+      background-color: $color-primary;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 900;
+      font-size: 0.8rem;
+      border-radius: $border-radius-rounded;
+
+      &.primary {
+        color: $color-tertiary;
+        background-color: $color-primary;
+      }
+      &.secondary {
+        color: $color-tertiary;
+        background-color: $color-secondary;
+      }
+    }
+  }
+}

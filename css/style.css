@@ -49,6 +49,20 @@ body {
 .center-text {
   text-align: center !important; }
 
+.border-3 {
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px; }
+
+.border-rounded {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%; }
+
 .alert {
   border-radius: 0.3rem;
   width: 100%;
@@ -95,3 +109,45 @@ body {
     outline: #7cc6fe solid 1px;
     color: #7cc6fe;
     background-color: #f4faff; }
+
+.badge {
+  position: relative;
+  width: max-content; }
+  .badge > div {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: #4361ee;
+    border: 2px solid #fff;
+    border-radius: 50%; }
+  .badge .online {
+    background-color: #4caf50; }
+  .badge .offline {
+    background-color: #777; }
+  .badge .dnd {
+    background-color: #ff9800; }
+  .badge-icon {
+    position: relative;
+    font-size: 2.8rem; }
+    .badge-icon ~ .number {
+      position: absolute;
+      top: 0;
+      right: -5px;
+      width: 15px;
+      height: 15px;
+      color: #f4faff;
+      background-color: #4361ee;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 900;
+      font-size: 0.8rem;
+      border-radius: 50%; }
+      .badge-icon ~ .number.primary {
+        color: #f4faff;
+        background-color: #4361ee; }
+      .badge-icon ~ .number.secondary {
+        color: #f4faff;
+        background-color: #f72585; }
