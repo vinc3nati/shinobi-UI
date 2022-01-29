@@ -1,5 +1,7 @@
-@import url("./utilities.css");
+@import url("/css/base.css");
 @import url("../components/Alert/alert.css");
+@import url("../components/Avatar/avatar.css");
+@import url("./utilities.css");
 
 :root {
   --color-primary: #4361ee;
