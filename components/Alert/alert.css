@@ -1,0 +1,59 @@
+.alert {
+  border-radius: 0.3rem;
+  width: 100%;
+  position: relative;
+  padding: 1rem 1.5rem;
+  font-size: 1.6rem;
+  margin: 1rem 0;
+  opacity: 0.9;
+  background-color: var(--color-default);
+  color: var(--color-tertiary);
+}
+.alert.primary {
+  background-color: var(--color-primary);
+}
+.alert.secondary {
+  background-color: var(--color-secondary);
+}
+.alert.error {
+  background-color: var(--color-error);
+}
+.alert.warning {
+  background-color: var(--color-warning);
+}
+.alert.success {
+  background-color: var(--color-success);
+}
+.alert.info {
+  background-color: var(--color-info);
+}
+.alert.outline-primary {
+  outline: var(--color-primary-light) solid 1px;
+  color: var(--color-primary);
+  background-color: #f4faff;
+}
+.alert.outline-secondary {
+  outline: var(--color-secondary-light) solid 1px;
+  color: var(--color-secondary);
+  background-color: #f4faff;
+}
+.alert.outline-error {
+  outline: var(--color-error-light) solid 1px;
+  color: var(--color-error);
+  background-color: #f4faff;
+}
+.alert.outline-warning {
+  outline: var(--color-warning-light) solid 1px;
+  color: var(--color-warning);
+  background-color: #f4faff;
+}
+.alert.outline-success {
+  outline: var(--color-success-light) solid 1px;
+  color: var(--color-success);
+  background-color: #f4faff;
+}
+.alert.outline-info {
+  outline: var(--color-info) solid 1px;
+  color: var(--color-info);
+  background-color: #f4faff;
+}
