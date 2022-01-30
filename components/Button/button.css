@@ -112,3 +112,22 @@
 .btn.icon-btn > *:first-child {
   margin-right: 0.4rem;
 }
+
+/* Floating Action button */
+
+.floating-btn {
+  cursor: pointer;
+  width: 5rem;
+  height: 5rem;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: var(--color-primary);
+  color: var(--color-tertiary);
+  z-index: 5;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--border-rounded);
+}
