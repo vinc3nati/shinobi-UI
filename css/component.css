@@ -2,6 +2,7 @@
 @import url("../components/Alert/alert.css");
 @import url("../components/Avatar/avatar.css");
 @import url("../components/Badge/badge.css");
+@import url("../components/Button/button.css");
 @import url("./utilities.css");
 
 :root {
@@ -11,7 +12,7 @@
 
   --color-secondary: #f72585;
   --color-secondary-light: #ec599b;
-  --color-secondary-dark: #b5179e;
+  --color-secondary-dark: #db176f;
 
   --color-tertiary: #f4faff;
   --color-tertiary-dark: #e1e2e4;
@@ -26,11 +27,16 @@
   --color-grey-dark-3: #333;
 
   --color-error: #f44336;
-  --color-error-light: #e2574d;
+  --color-error-light: #f73c2f;
+  --color-error-dark: #dd1e10;
+
   --color-success: #4caf50;
   --color-success-light: #62b365;
+  --color-success-dark: #42a545;
+
   --color-warning: #ff9800;
   --color-warning-light: #e6a647;
+
   --color-info: #7cc6fe;
 
   --border-radius-3: 3px;
