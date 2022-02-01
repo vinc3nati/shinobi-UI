@@ -59,7 +59,7 @@
 
 .fancy.err > input {
   border: none;
-  border-bottom: 2px solid var(--color-error) !important;
+  border-bottom: 2px solid var(--color-error);
 }
 
 .fancy > input::-webkit-input-placeholder {
