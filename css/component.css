@@ -6,6 +6,7 @@
 @import url("../components/Image/image.css");
 @import url("../components/Card/card.css");
 @import url("../components/Input/input.css");
+@import url("../components/Modal/modal.css");
 @import url("./utilities.css");
 
 :root {
