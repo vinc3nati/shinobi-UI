@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/component.a673babe.css">
+    <title>Input</title>
+</head>
+
+<body>
+    <!-- Normal input -->
+    <div class="input-grp">
+        <label for="username">Email</label>
+        <input type="email" placeholder="example@example.com">
+    </div>
+
+    <div class="input-grp required err">
+        <label for="password">Password</label>
+        <input placeholder="Password" type="password">
+        <div class="err-msg">Please enter valid input</div>
+    </div>
+
+    <!-- Fancy Input -->
+    <div class="input-grp fancy">
+        <input type="email" placeholder="Email">
+        <label for="email">Email</label>
+    </div>
+
+    <div class="input-grp fancy required err">
+        <div class="err-msg">Please enter valid input</div>
+        <input placeholder="Password" type="password">
+        <label for="password">Password</label>
+    </div>
+
+    <!-- TextArea -->
+    <textarea class="input-area" placeholder="Enter your message here..." name="input" cols="30" rows="10"></textarea>
+
+    <!-- Radio inputs -->
+    <div class="radio-grp">
+        <input type="radio" checked="" name="radio" id="radio_1">
+        <label for="radio_1">
+            <span class="radio-btn"></span>
+            Checked</label>
+    </div>
+    <div class="radio-grp">
+        <input type="radio" name="radio" id="radio_2">
+        <label for="radio_2"><span class="radio-btn"></span>Unchecked</label>
+    </div>
+    <div class="radio-grp">
+        <input type="radio" disabled="" name="radio" id="radio_2">
+        <label for="radio_2"><span class="radio-btn"></span>Disabled</label>
+    </div>
+
+    <!-- Checbox input -->
+    <div class="checkbox-grp">
+        <input type="checkbox" checked="" id="checked">
+        <label for="checked">Checked</label>
+    </div>
+    <div class="checkbox-grp">
+        <input type="checkbox" id="unchecked">
+        <label for="unchecked">Unchecked</label>
+    </div>
+    <div class="checkbox-grp">
+        <input type="checkbox" disabled="" id="disabled">
+        <label for="disabled">Disabled</label>
+    </div>
+</body>
+
+</html>
