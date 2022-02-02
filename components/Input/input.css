@@ -37,14 +37,6 @@
   border-radius: var(--border-radius-3);
 }
 
-.input-area {
-  outline: none;
-  font-size: 1.6rem;
-  font-family: inherit;
-  padding: 1rem 1.6rem;
-  border-radius: var(--border-radius-3);
-}
-
 .input-grp > input:focus,
 .input-area:focus {
   box-shadow: 0 0 0 1px var(--color-primary);
@@ -80,6 +72,11 @@
   border-bottom: 2px solid var(--color-primary);
 }
 
+.fancy.err > input:focus {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid var(--color-error);
+}
+
 .fancy > input:focus:invalid {
   border-bottom: 2px solid var(--color-error);
 }
@@ -99,6 +96,18 @@
   border: none;
   /* pointer-events: none; */
   cursor: not-allowed;
+}
+
+/* Textarea */
+
+.input-area {
+  display: inline-block;
+  vertical-align: middle;
+  outline: none;
+  font-size: 1.6rem;
+  font-family: inherit;
+  padding: 1rem 1.6rem;
+  border-radius: var(--border-radius-3);
 }
 
 /* Radio Input */
