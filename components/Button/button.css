@@ -32,6 +32,11 @@
   background-color: var(--color-secondary);
 }
 
+.btn.tertiary {
+  background-color: var(--color-tertiary);
+  color: var(--color-primary);
+}
+
 .btn.secondary:hover {
   background-color: var(--color-secondary-dark);
 }
