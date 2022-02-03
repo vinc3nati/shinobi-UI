@@ -75,6 +75,9 @@ h6 {
 .text-secondary {
   color: var(--color-secondary);
 }
+.text-tertiary {
+  color: var(--color-tertiary);
+}
 
 .absolute-center {
   position: absolute;
