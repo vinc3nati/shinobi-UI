@@ -1,0 +1,23 @@
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1rem;
+}
+
+.rating input {
+  display: none;
+}
+
+label {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+input:enabled + .rating-icon:hover {
+  color: var(--color-warning-light);
+}
+
+input:checked + .rating-icon {
+  color: var(--color-warning);
+}
