@@ -9,15 +9,18 @@
   display: none;
 }
 
-label {
+.rating label {
   cursor: pointer;
+}
+
+.rating .rating-icon {
   transition: all 0.3s ease;
 }
 
-input:enabled + .rating-icon:hover {
+.rating input:enabled + .rating-icon:hover {
   color: var(--color-warning-light);
 }
 
-input:checked + .rating-icon {
+.rating input:checked + .rating-icon {
   color: var(--color-warning);
 }
