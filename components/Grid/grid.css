@@ -19,6 +19,6 @@
   grid-template-columns: 3fr 1fr;
 }
 
-.grid-centered {
-  justify-content: center;
+.grid-item-centered {
+  justify-self: center;
 }
