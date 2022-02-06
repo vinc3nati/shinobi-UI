@@ -32,13 +32,15 @@
   background-color: var(--color-secondary);
 }
 
+.btn.secondary:hover {
+  background-color: var(--color-secondary-dark);
+}
 .btn.tertiary {
   background-color: var(--color-tertiary);
   color: var(--color-primary);
 }
-
-.btn.secondary:hover {
-  background-color: var(--color-secondary-dark);
+.btn.tertiary:hover {
+  background-color: var(--color-tertiary-dark);
 }
 
 .btn.error {

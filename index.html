@@ -5,13 +5,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/base.css">
+    <!-- <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css"
+        integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ=="
+        crossorigin="anonymous" /> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/a11y-dark.min.css"
+        integrity="sha512-Vj6gPCk8EZlqnoveEyuGyYaWZ1+jyjMPg8g4shwyyNlRQl6d3L9At02ZHQr5K6s5duZl/+YKMnM3/8pDhoUphg=="
+        crossorigin="anonymous" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/a11y-light.min.css"
+        integrity="sha512-WDk6RzwygsN9KecRHAfm9HTN87LQjqdygDmkHSJxVkVI7ErCZ8ZWxP6T8RvBujY1n2/E4Ac+bn2ChXnp5rnnHA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/component.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="/index.js" defer></script>
     <title>Home</title>
 </head>
 
 <body>
-    Home
-    <a href="./components/Alert/alert.html">Alert</a>
+    <nav class="navbar nav-main">
+        <div class="nav-container">
+            <div class="logo">
+                <img class="img img-responsive" src="/assets/logo.png" alt="logo">
+            </div>
+            <div class="nav-links">
+                <a href="#" class="text-primary text-bold"><i class="fas fa-file"></i><span>Docs</span></a>
+                <a href="#" class="text-primary text-bold"><i class="fab fa-github"></i><span>GitHub</span></a></li>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <section id="main">
+        <main>
+            <header class="heading">Build Fast, Ship Fast, Worry Less. </header>
+            <div class="subheading">
+                <span class="text-primary text-bold">Shinobi UI</span> is a CSS component library which is <span
+                    class="text-secondary">light weight</span>, easy to use, out of the box <san class="text-secondary">
+                    modern styling</san>. Stop worrying and start applying!
+            </div>
+            <div class="btn-group">
+                <button class="btn tertiary">installation</button>
+                <button class="btn primary"><a href="./components/Avatar/avatar.html"> get started </a></button>
+            </div>
+        </main>
+    </section>
+    <section id="installation">
+        <h2 class="text-tertiary">Installation Guide</h2>
+        <div class="steps text-justify">
+            <div class="step_1">
+                In order to use Shinobi stylesheet in your project include the <code>&lt;link/&gt;</code> tag given
+                below in your <code>&lt;head/&gt;</code> tag above all the stylesheets.
+                <div class="code-container">
+                    <pre>
+                        <code class="html">
+                        &lt;link rel="stylesheet" href="https://shinobi-UI.netlify.app/css/components.css""/&gt;  
+                        </code>
+                        </pre>
+                </div>
+            </div>
+            <div class="step_2">
+                Some components may require use of <code>JavaScript</code>, so include below code in
+                <code>&lt;body/&gt;</code> tag at the very end.
+                <div class="code-container">
+                    <pre>
+                    <code class="html">
+                        &lt;script src="https://Shinobi-UI.netlify.app/index.js"&gt;&lt;/script&gt;  
+                    </code>
+                    </pre>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <header>Made with <i class="fas fa-heart text-secondary"></i> by <span class="text-secondary">Vinit Kanse</span>
+        </header>
+        <div class="social-links">
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-github"></i>
+        </div>
+        <span class="copyright text-light">&copy; 2022 - 2023 <span class="text-primary text-bold">Shinobi
+                UI</span></span>
+    </section>
+    <!-- <a href="./components/Alert/alert.html">Alert</a>
     <a href="./components/Avatar/avatar.html">Avatar</a>
     <a href="./components/Badge/badge.html">Badge</a>
     <a href="./components/Button/button.html">Button</a>
@@ -24,7 +101,11 @@
     <a href="./components/List/list.html">List</a>
     <a href="./components/Navbar/navbar.html">Navbar</a>
     <a href="./components/Rating/rating.html">Rating</a>
-    <a href="./components/Grid/grid.html">Grid</a>
+    <a href="./components/Grid/grid.html">Grid</a> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"
+        integrity="sha512-IaaKO80nPNs5j+VLxd42eK/7sYuXQmr+fyywCNA0e+C6gtQnuCXNtORe9xR4LqGPz5U9VpH+ff41wKs/ZmC3iA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>hljs.highlightAll();</script>
 </body>
 
 </html>
