@@ -12,6 +12,7 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/a11y-dark.min.css"
         integrity="sha512-Vj6gPCk8EZlqnoveEyuGyYaWZ1+jyjMPg8g4shwyyNlRQl6d3L9At02ZHQr5K6s5duZl/+YKMnM3/8pDhoUphg=="
         crossorigin="anonymous" /> -->
+    <link rel="shortcut icon" href="/assets/favicon/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
         integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
         crossorigin="anonymous" />
@@ -28,11 +29,15 @@
     <nav class="navbar nav-main">
         <div class="nav-container">
             <div class="logo">
-                <img class="img img-responsive" src="/assets/logo.png" alt="logo">
+                <a href="/">
+                    <img class="img img-responsive" src="/assets/logo.png" alt="logo">
+                </a>
             </div>
             <div class="nav-links">
-                <a href="#" class="text-primary text-bold"><i class="fas fa-file"></i><span>Docs</span></a>
-                <a href="#" class="text-primary text-bold"><i class="fab fa-github"></i><span>GitHub</span></a></li>
+                <a href="/components/Avatar/avatar.html" class="text-primary text-bold"><i
+                        class="fas fa-file"></i><span>Docs</span></a>
+                <a href="https://github.com/vinc3nati/shinobi-UI" target="_blank" class="text-primary text-bold"><i
+                        class="fab fa-github"></i><span>GitHub</span></a></li>
                 </a>
             </div>
         </div>
@@ -46,34 +51,39 @@
                     modern styling</san>. Stop worrying and start applying!
             </div>
             <div class="btn-group">
-                <button class="btn tertiary">installation</button>
+                <button class="btn tertiary"><a href="#installation">installation</a></button>
                 <button class="btn primary"><a href="./components/Avatar/avatar.html"> get started </a></button>
             </div>
         </main>
     </section>
     <section id="installation">
         <h2 class="text-tertiary">Installation Guide</h2>
-        <div class="steps text-justify">
-            <div class="step_1">
-                In order to use Shinobi stylesheet in your project include the <code>&lt;link/&gt;</code> tag given
-                below in your <code>&lt;head/&gt;</code> tag above all the stylesheets.
-                <div class="code-container">
-                    <pre>
-                        <code class="html">
-                        &lt;link rel="stylesheet" href="https://shinobi-UI.netlify.app/css/components.css""/&gt;  
-                        </code>
-                        </pre>
-                </div>
+        <div class="installation-body">
+            <div class="installation-image">
+                <img class="img img-responsive" src="/assets/logo_2.png" alt="ninja image">
             </div>
-            <div class="step_2">
-                Some components may require use of <code>JavaScript</code>, so include below code in
-                <code>&lt;body/&gt;</code> tag at the very end.
-                <div class="code-container">
-                    <pre>
-                    <code class="html">
-                        &lt;script src="https://Shinobi-UI.netlify.app/index.js"&gt;&lt;/script&gt;  
-                    </code>
-                    </pre>
+            <div class="steps text-justify">
+                <div class="step_1">
+                    Include the <code>&lt;link/&gt;</code> tag given
+                    below in your <code>&lt;head/&gt;</code> tag above all the stylesheets.
+                    <div class="code-container">
+                        <pre>
+            <code class="html">
+        &lt;link rel="stylesheet" href="https://shinobi-UI.netlify.app/css/components.css""/&gt;  
+            </code>
+            </pre>
+                    </div>
+                </div>
+                <div class="step_2">
+                    Some components may require use of <code>JavaScript</code>, so include below code in
+                    <code>&lt;body/&gt;</code> tag at the very end.
+                    <div class="code-container">
+                        <pre>
+        <code class="html">
+      &lt;script src="https://Shinobi-UI.netlify.app/index.js"&gt;&lt;/script&gt;  
+        </code>
+        </pre>
+                    </div>
                 </div>
             </div>
         </div>
@@ -88,6 +98,9 @@
         <span class="copyright text-light">&copy; 2022 - 2023 <span class="text-primary text-bold">Shinobi
                 UI</span></span>
     </section>
+    <button title="Top" class="btn floating-btn primary" data-top>
+        <i class="fas fa-chevron-up"></i>
+    </button>
     <!-- <a href="./components/Alert/alert.html">Alert</a>
     <a href="./components/Avatar/avatar.html">Avatar</a>
     <a href="./components/Badge/badge.html">Badge</a>

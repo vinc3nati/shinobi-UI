@@ -4,6 +4,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  overflow: hidden;
+  z-index: 10;
   background-color: var(--color-primary);
   color: var(--color-tertiary);
   border-radius: var(--border-radius-3);
@@ -49,7 +51,8 @@
   color: inherit;
 }
 
-.nav-links > *,
+.nav-links .badge i,
+.nav-links a,
 #footer .social-links > * {
   cursor: pointer;
   display: flex;
@@ -63,7 +66,8 @@
   font-size: 1.8rem;
 }
 
-.nav-links > *:hover,
+.nav-links .badge:hover i,
+.nav-links a:hover,
 #footer .social-links > *:hover {
   opacity: 0.7;
 }
@@ -71,8 +75,8 @@
 .user {
   cursor: pointer;
   width: auto;
-  /* margin-left: 2rem; */
-  padding-left: 2rem;
+  margin-left: 2rem;
+  padding-left: 1rem;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -85,14 +89,19 @@
   width: 100%;
   box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.1);
   transform: all 0.3s ease;
-  -webkit-transform: all 0.3s ease;
-  -moz-transform: all 0.3s ease;
-  -ms-transform: all 0.3s ease;
-  -o-transform: all 0.3s ease;
 }
 
-@media only screen and (max-width: 560px) {
+.main .input-grp {
+  width: 60%;
+  font-size: inherit;
+  margin-right: 1rem;
+}
+
+@media only screen and (max-width: 700px) {
   .main > .input-grp {
     display: none;
+  }
+  .nav-links .badge i {
+    font-size: 1.6rem;
   }
 }

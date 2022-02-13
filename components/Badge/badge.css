@@ -29,8 +29,9 @@
 }
 .badge-icon {
   position: relative;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
+
 .badge-icon ~ .number {
   position: absolute;
   top: -0.8rem;

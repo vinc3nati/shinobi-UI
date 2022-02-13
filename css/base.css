@@ -30,6 +30,7 @@ ORDER: base + typography > general layout + grid > page layout > components
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 @media only screen and (max-width: 75em) {
   html {
@@ -48,6 +49,7 @@ html {
 }
 
 body {
+  overflow: overlay;
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
   font-weight: 400;

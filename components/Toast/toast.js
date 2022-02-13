@@ -1,8 +1,9 @@
 const toastContainer = document.querySelector(".toast");
 const openToast = document.querySelector("[data-toast]");
+const openToast2 = document.querySelector("[data-toast-2]");
 const btnClose = document.querySelector(".btn-close");
 
-let timerID;
+let timerID, timerID2;
 
 export function toast() {
   if (openToast) {

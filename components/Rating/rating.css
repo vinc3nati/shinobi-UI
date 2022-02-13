@@ -1,3 +1,9 @@
+.submit-review {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .rating {
   display: flex;
   align-items: center;
