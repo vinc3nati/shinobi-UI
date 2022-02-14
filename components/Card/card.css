@@ -73,6 +73,7 @@
 .horizontal {
   display: flex;
   max-width: 70rem;
+  width: 100%;
   padding: 1rem;
   height: min-content;
 }
