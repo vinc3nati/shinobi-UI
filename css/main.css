@@ -45,7 +45,7 @@ main .subheading {
   column-gap: 2rem;
 }
 
-.btn-group > * {
+.btn-group a > * {
   font-size: 1.8rem;
 }
 
