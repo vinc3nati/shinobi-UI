@@ -182,7 +182,8 @@ main .subheading {
   text-align: left;
 }
 
-.output {
+.output,
+.palette-container {
   background-color: var(--color-tertiary);
   min-height: 10rem;
   width: 100%;
@@ -190,12 +191,15 @@ main .subheading {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  column-gap: 2rem;
-  padding: 1rem;
   margin-bottom: 1.5rem;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   border-radius: var(--border-radius-3);
+}
+
+.output {
+  column-gap: 2rem;
+  padding: 1rem;
 }
 
 /* when showing example demo */
@@ -298,12 +302,67 @@ main .subheading {
 }
 
 .drawer header {
-  border-bottom: 1px solid var(--color-tertiary-dark);
+  background-color: #fff;
+  width: 100%;
+  /* border-bottom: 1px solid var(--color-tertiary-dark); */
 }
 
 .drawer-list {
-  color: var(--color-info);
   font-size: 2rem;
+  color: var(--color-info);
+}
+
+.drawer-list .list-title {
+  color: var(--color-grey-dark-3);
+}
+
+/* Color */
+.palette-container {
+  padding: 1.5rem 1rem;
+  gap: 2rem;
+  background-color: #fff;
+}
+
+.palette-container > * {
+  width: 120px;
+  height: 120px;
+  color: #fff;
+  padding: 0.5rem;
+  font-size: inherit;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: var(--border-radius-3);
+  -webkit-border-radius: var(--border-radius-3);
+  -moz-border-radius: var(--border-radius-3);
+  -ms-border-radius: var(--border-radius-3);
+  -o-border-radius: var(--border-radius-3);
+}
+
+.palette-container .default {
+  background-color: var(--color-default);
+}
+.palette-container .primary {
+  background-color: var(--color-primary);
+}
+.palette-container .secondary {
+  background-color: var(--color-secondary);
+}
+.palette-container .tertiary {
+  color: var(--color-grey-dark-3);
+  background-color: var(--color-tertiary);
+}
+.palette-container .error {
+  background-color: var(--color-error);
+}
+.palette-container .warning {
+  background-color: var(--color-warning);
+}
+.palette-container .success {
+  background-color: var(--color-success);
+}
+.palette-container .info {
+  background-color: var(--color-info);
 }
 
 /* ScrollBar */
@@ -328,6 +387,10 @@ main .subheading {
 }
 
 @media only screen and (max-width: 768px) {
+  .doc-container {
+    width: 90%;
+  }
+
   .installation-body {
     display: block;
   }

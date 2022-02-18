@@ -71,9 +71,13 @@
   font-size: 1.8rem;
 }
 
-.nav-links .badge:hover i,
+.navbar .badge:hover i,
 .nav-links a:hover > *:not(button) {
   opacity: 0.7;
+}
+
+.navbar .badge:hover .number {
+  opacity: 1;
 }
 
 .user {
@@ -118,6 +122,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .nav-container {
+    width: 90%;
+  }
+
   .main > .search-bar {
     display: none;
   }
