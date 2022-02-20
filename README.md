@@ -38,41 +38,55 @@
 <br />
 
 <!-- TABLE OF CONTENT -->
-| Sr. No. | Title |
-| --- | ----------- |
-| 1. | [Project Demo](#demo) |
-| 2. | [Starting Guide](#starting-guide) |
-| 3. | [Components](#components) |
-| 4. | [Tech Stack](#tech-stack) |
-| 5. | [Contributing Guide](#contributing) |
+
+| Sr. No. | Title                               |
+| ------- | ----------------------------------- |
+| 1.      | [Project Demo](#demo)               |
+| 2.      | [Starting Guide](#starting-guide)   |
+| 3.      | [Components](#components)           |
+| 4.      | [Tech Stack](#tech-stack)           |
+| 5.      | [Contributing Guide](#contributing) |
 
 <!-- Project Demo -->
+
 <a name="demo"></a>
 
+## Demo
+
+![demo video](https://github.com/vinc3nati/shinobi-UI/assets/demo.gif)
 
 <!-- Starting Guide -->
+
 <a name="starting-guide"></a>
+
 ## Starting Guide
 
 #### Include CSS file in your `<head>` tag
+
 ```HTML
 <link rel="stylesheet" href="https://shinobi-ui.netlify.app/component.25132a91.css"/>
 ```
+
 OR
 
 #### Import CSS file in your `style.css`
+
 ```CSS
 @import url("https://shinobi-ui.netlify.app/component.25132a91.css");
 ```
 
 #### Include the Javascript file at the end of your `<body>` tag in `html` file.
+
 ```HTML
 <script src="https://shinobi-ui.netlify.app/repo.b72b64c2.js"></script>
 ```
 
 <!-- Components -->
+
 <a name="components"></a>
+
 ## Components
+
 - [Avatar](https://shinobi-ui.netlify.app/components/avatar/avatar)
 - [Alerts](https://shinobi-ui.netlify.app/components/alert/alert)
 - [Badge](https://shinobi-ui.netlify.app/components/badge/badge)
@@ -89,36 +103,49 @@ OR
 - [Toast](https://shinobi-ui.netlify.app/components/toast/toast)
 
 <!-- Tech Stack -->
+
 <a name="tech-stack"></a>
+
 ## Technologies Used
+
 - HTML
 - CSS
 - JavaScript
 
 <!-- Contributing Guidelines -->
+
 <a name="contributing"></a>
+
 ## Contributing Guidelines
 
 Contribution is the key factor of growth be it from a person, environment, experience and that's what is required for this library to grow.
 <br/>
-*"बूंद बूंद से ही सागर भरे"* which translates to "Drop by drop fill the ocean" with this let's start contributing.
+_"बूंद बूंद से ही सागर भरे"_ which translates to "Drop by drop fill the ocean" with this let's start contributing.
 <br/>
+
 - [Fork](https://github.com/vinc3nati/shinobi-UI/fork) the project
 - Create a "feature" branch.
+
 ```BASH
 git checkout -b <branch-name>
 ```
+
 - Stage the changed files and commit the feature
+
 ```BASH
 git add .
 git commit -m "Brief commit message"
 ```
+
 - Push the changes to your remote repository
+
 ```BASH
 git push -u origin <feature-branch>
 ```
+
 - Create a [Pull Request](https://github.com/vinc3nati/shinobi-UI/pulls)
 - Wait for it to be reviewed
 
------
+---
+
 <h1 align="center">Thank You 🙏</h1>
