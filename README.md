@@ -53,7 +53,7 @@
 
 ## Demo
 
-![demo video](https://github.com/vinc3nati/shinobi-UI/assets/demo.gif)
+![demo video](https://github.com/vinc3nati/shinobi-UI/blob/dev/assets/demo.gif)
 
 <!-- Starting Guide -->
 
