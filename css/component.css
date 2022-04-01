@@ -12,6 +12,7 @@
 @import url("../components/Navbar/navbar.css");
 @import url("../components/Rating/rating.css");
 @import url("../components/Grid/grid.css");
+@import url("../components/Slider/slider.css");
 @import url("./utilities.css");
 
 :root {
