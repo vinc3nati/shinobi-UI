@@ -53,11 +53,15 @@ main .subheading {
   height: max-content;
 }
 
+#installation {
+  color: var(--color-grey-light-1);
+}
+
 .hljs {
   text-align: left;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-  background-color: var(--color-tertiary);
+    background: var(--color-tertiary);
   border-radius: var(--border-radius-3);
 }
 
@@ -83,7 +87,7 @@ main .subheading {
 
 .step_1,
 .step_2 {
-  color: var(--color-tertiary);
+  color: var(--color-grey-light-1);
   margin: 1rem 0;
 }
 
@@ -101,7 +105,7 @@ main .subheading {
   margin-right: 1rem;
   padding: 5px 9px;
   font-weight: 700;
-  border: 1px solid var(--color-tertiary);
+  border: 1px solid var(--color-grey-light-1);
   border-radius: var(--border-rounded);
 }
 
@@ -192,8 +196,8 @@ main .subheading {
   justify-content: center;
   align-items: center;
   margin-bottom: 1.5rem;
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
-    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  box-shadow: var(--color-background-accent) 0px 1px 3px 0px,
+  var(--color-background-accent)  0px 0px 0px 1px;
   border-radius: var(--border-radius-3);
 }
 
@@ -302,7 +306,6 @@ main .subheading {
 }
 
 .drawer header {
-  background-color: #fff;
   width: 100%;
   /* border-bottom: 1px solid var(--color-tertiary-dark); */
 }
@@ -320,7 +323,6 @@ main .subheading {
 .palette-container {
   padding: 1.5rem 1rem;
   gap: 2rem;
-  background-color: #fff;
 }
 
 .palette-container > * {
@@ -349,7 +351,7 @@ main .subheading {
   background-color: var(--color-secondary);
 }
 .palette-container .tertiary {
-  color: var(--color-grey-dark-3);
+  color: var(--color-grey-dark-2);
   background-color: var(--color-tertiary);
 }
 .palette-container .error {
@@ -363,6 +365,18 @@ main .subheading {
 }
 .palette-container .info {
   background-color: var(--color-info);
+}
+
+
+.theme-icon {
+  color: var(--color-primary);
+  font-size: 2rem;
+}
+
+.dark-theme {
+  --color-tertiary: #1A132F;
+  --color-tertiary-dark: #322b45;
+  --color-background-accent: #f4f4f4
 }
 
 /* ScrollBar */

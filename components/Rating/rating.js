@@ -14,7 +14,7 @@ function checkStars(idx) {
   }
 }
 
-export function rating() {
+function rating() {
   ratingStars.forEach((star, id) => {
     star.addEventListener("change", () => checkStars(id));
   });
@@ -31,3 +31,5 @@ export function rating() {
     });
   }
 }
+
+rating();

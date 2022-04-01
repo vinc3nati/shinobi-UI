@@ -5,7 +5,7 @@ const btnClose = document.querySelector(".btn-close");
 
 let timerID, timerID2;
 
-export function toast() {
+function toast() {
   if (openToast) {
     openToast.addEventListener("click", () => {
       toastContainer.style.display = "block";
@@ -22,3 +22,5 @@ export function toast() {
     });
   }
 }
+
+toast();

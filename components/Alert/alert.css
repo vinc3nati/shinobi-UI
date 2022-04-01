@@ -6,7 +6,6 @@
   font-size: 1.6rem;
   margin: 1rem 0;
   opacity: 0.9;
-  background-color: var(--color-default);
   color: var(--color-tertiary);
 }
 .alert.primary {
@@ -30,30 +29,30 @@
 .alert.outline-primary {
   outline: var(--color-primary-light) solid 1px;
   color: var(--color-primary);
-  background-color: #f4faff;
+  
 }
 .alert.outline-secondary {
   outline: var(--color-secondary-light) solid 1px;
   color: var(--color-secondary);
-  background-color: #f4faff;
+  
 }
 .alert.outline-error {
   outline: var(--color-error-light) solid 1px;
   color: var(--color-error);
-  background-color: #f4faff;
+  
 }
 .alert.outline-warning {
   outline: var(--color-warning-light) solid 1px;
   color: var(--color-warning);
-  background-color: #f4faff;
+  
 }
 .alert.outline-success {
   outline: var(--color-success-light) solid 1px;
   color: var(--color-success);
-  background-color: #f4faff;
+  
 }
 .alert.outline-info {
   outline: var(--color-info) solid 1px;
   color: var(--color-info);
-  background-color: #f4faff;
+  
 }

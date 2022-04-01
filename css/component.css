@@ -47,12 +47,14 @@
   --color-warning-light: #e6a647;
 
   --color-info: #7cc6fe;
+  --color-background-accent: #333;
 
   --border-radius-3: 3px;
   --border-rounded: 50%;
 }
 
 .disabled {
+  cursor: not-allowed;
   pointer-events: none;
   opacity: 0.7;
 }

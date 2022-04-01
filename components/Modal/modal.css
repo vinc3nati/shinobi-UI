@@ -20,7 +20,6 @@
   height: 50vh;
   padding: 1rem 1.8rem;
   background-color: var(--color-tertiary);
-  color: var(--color-grey-dark-3);
   display: flex;
   flex-direction: column;
   align-items: center;

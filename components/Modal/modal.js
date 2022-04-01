@@ -6,7 +6,7 @@ const modalContainer = document.querySelector(".modal-container");
 const modalWithHeader = document.querySelector("[data-with-header]");
 const modalContent = document.querySelector(".modal-content");
 
-export function modal() {
+function modal() {
   if (btn) {
     btn.addEventListener("click", () => {
       if (modalContent.classList.contains("with-header"))
@@ -30,3 +30,5 @@ export function modal() {
     });
   }
 }
+
+modal();
