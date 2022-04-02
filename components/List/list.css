@@ -48,3 +48,22 @@
 .list .nested-list li {
   padding: 0.7rem 1.35rem;
 }
+
+/*stacked list */
+.list.stacked {
+  width: 100%;
+  max-width: 40rem;
+  border-radius: var(--border-radius-3);
+}
+
+.list.stacked li > .img{
+  width: 5rem;
+  height: 5rem;
+}
+
+.stacked-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid var(--color-tertiary-dark);
+}
