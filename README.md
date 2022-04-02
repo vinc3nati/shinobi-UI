@@ -99,6 +99,7 @@ OR
 - [Modal](https://shinobi-ui.netlify.app/components/modal/modal)
 - [Navbar](https://shinobi-ui.netlify.app/components/navbar/navbar)
 - [Rating](https://shinobi-ui.netlify.app/components/rating/rating)
+- [Slider](https://shinobi-ui.netlify.app/components/slider/slider)
 - [Typography](https://shinobi-ui.netlify.app/components/typography/typography)
 - [Toast](https://shinobi-ui.netlify.app/components/toast/toast)
 
