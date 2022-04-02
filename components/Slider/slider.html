@@ -14,9 +14,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/component.css">
-    <script type="module" src="./rating.js"></script>
     <script src="/index.js" defer></script>
-    <title>Shinobi-UI | Rating</title>
+    <title>Shinobi-UI | Typography</title>
 </head>
 
 <body>
@@ -48,8 +47,8 @@
                         <li><a href="/components/List/list.html">List</a></li>
                         <li><a href="/components/Modal/modal.html">Modal</a></li>
                         <li><a href="/components/Navbar/navbar.html">Navbar</a></li>
-                        <li class="text-primary text-bold"><a href="#">Rating</a></li>
-                        <li><a href="/components/Slider/slider.html">Slider</a></li>
+                        <li><a href="/components/Rating/rating.html">Rating</a></li>
+                        <li class="text-primary text-bold"><a href="#">Slider</a></li>
                         <li><a href="/components/Typography/typography.html">Typography</a></li>
                         <li><a href="/components/Toast/toast.html">Toast</a></li>
                     </ul>
@@ -86,90 +85,58 @@
                 <li><a href="/components/List/list.html">List</a></li>
                 <li><a href="/components/Modal/modal.html">Modal</a></li>
                 <li><a href="/components/Navbar/navbar.html">Navbar</a></li>
-                <li class="text-primary text-bold"><a href="#">Rating</a></li>
-                <li><a href="/components/Slider/slider.html">Slider</a></li>
+                <li><a href="/components/Rating/rating.html">Rating</a></li>
+                <li class="text-primary text-bold"><a href="#">Slider</a></li>
                 <li><a href="/components/Typography/typography.html">Typography</a></li>
                 <li><a href="/components/Toast/toast.html">Toast</a></li>
             </div>
         </aside>
         <main class="doc-content">
             <header class="content-title">
-                Rating
+                Slider
             </header>
             <div class="content-subtitle">
-                Ratings plays vital role while collecting user feedbacks. They give more clarity on how much the user
-                likes the product/service.
+                Slider lets you adjust between different input values just by sliding rather than typing everytime.
             </div>
             <div class="divider"></div>
 
-            <!-- Rating -->
+            <!-- Styled Slider -->
             <div class="content-head">
-                Star Rating
-            </div>
-            <div class="content-subtitle">
-                Star rating contains a <span class="note">form</span> with class <code
-                    class="text-bold">submit-review</code> and <code class="text-bold">rating</code> on the container
+                Styled Slider
             </div>
             <div class="output">
-                <form class="submit-review text-center">
-                    <div class="rating">
-                        <label>
-                            <input class="rating-input" type="checkbox">
-                            <i class="fa-solid fa-star rating-icon"></i>
-                        </label>
-                        <label>
-                            <input class="rating-input" type="checkbox">
-                            <i class="fa-solid fa-star rating-icon"></i>
-                        </label>
-                        <label>
-                            <input class="rating-input" type="checkbox">
-                            <i class="fa-solid fa-star rating-icon"></i>
-                        </label>
-                        <label>
-                            <input class="rating-input" type="checkbox">
-                            <i class="fa-solid fa-star rating-icon"></i>
-                        </label>
-                        <label>
-                            <input class="rating-input" type="checkbox">
-                            <i class="fa-solid fa-star rating-icon"></i>
-                        </label>
-                    </div>
-                    <button type="submit" class="btn primary">submit</button>
-                    <div class="show-review text-center"></div>
-                </form>
+                <input type="range" min="0" max="100" class="slider" />
             </div>
 
             <div class="code">
                 <pre>
                     <code class="html">
-  /* Using the 'submit-review class on form along with 'rating' on 'container' */ 
+            &lt;input type="range" min="0" max="100" class="slider" /&gt;
+                    </code></pre>
+            </div>
+            <div class="divider"></div>
 
-    &lt;form class="submit-review text-center"&gt;
-        &lt;div class="rating"&gt;
-            &lt;label&gt;
-               &lt;input class="rating-input" type="checkbox"&gt;
-               &lt;i class="fa-solid fa-star rating-icon">&lt;/i&gt;
-            &lt;/label&gt;
-            &lt;label&gt;
-               &lt;input class="rating-input" type="checkbox"&gt;
-               &lt;i class="fa-solid fa-star rating-icon"&gt;&lt;/i&gt;
-            &lt;/label&gt;
-            &lt;label&gt;
-               &lt;input class="rating-input" type="checkbox"&gt;
-               &lt;i class="fa-solid fa-star rating-icon"&gt;&lt;/i&gt;
-            &lt;/label&gt;
-            &lt;label&gt;
-               &lt;input class="rating-input" type="checkbox"&gt;
-               &lt;i class="fa-solid fa-star rating-icon"&gt;&lt;/i&gt;
-            &lt;/label&gt;
-            &lt;label&gt;
-               &lt;input class="rating-input" type="checkbox"&gt;
-               &lt;i class="fa-solid fa-star rating-icon"&gt;&lt;/i&gt;
-            &lt;/label&gt;
-        &lt;/div&gt;
-        &lt;button type="submit" class="btn primary"&gt;submit&lt;/button&gt;
-        &lt;div class="show-review text-center"&gt;&lt;/div&gt;
-    &lt;/form&gt;
+            <!-- Icon Slider -->
+            <div class="content-head">
+                Icon Slider
+            </div>
+            <div class="output">
+                <div class="icon-slider">
+                    <label class="icon-slider-label" for="range"><i class="fas fa-volume-up"></i></label>
+                    <input type="range" name="range" id="range" min="0" max="100" />
+                </div>
+            </div>
+
+            <div class="code">
+                <pre>
+                    <code class="html">
+                &lt;div class="icon-slider"&gt;
+                    &lt;label class="icon-slider-label" for="range"&gt;
+                        &lt;i class="fas fa-volume-up"&gt;&lt;/i&gt;
+                    &lt;/label&gt;
+                    &lt;input type="range" name="range" id="range" min="0"
+                     max="100" /&gt;
+                &lt;/div&gt;  
                     </code></pre>
             </div>
             <div class="divider"></div>
@@ -182,10 +149,10 @@
                         preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
                         <path fill="none" stroke="currentColor" stroke-width="2" d="M15 6l-6 6l6 6"></path>
                     </svg>
-                    <a href="../Navbar/navbar.html">Navbar</a>
+                    <a href="../Rating/rating.html">Rating</a>
                 </div>
                 <div class="next-link">
-                    <a href="../Typography/typography.html">Typography</a>
+                    <a href="../Toast/toast.html">Toast</a>
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                         aria-hidden="true" role="img" class="iconify iconify--ic" width="1em" height="1em"
                         preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
